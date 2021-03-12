@@ -1,0 +1,120 @@
+.shop-cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 1px solid #000;
+}
+.bottom-content {
+    height: 1.333333rem;
+    display: flex;
+    background: rgba(51, 51, 51, .9);
+}
+.shop-pic {
+    width: 1.466667rem;
+    height: 1.466667rem;
+    background: url(../img/shop-icon.png) center/cover;
+    margin-top: -0.4rem;
+    margin-left: 0.32rem;
+    position: relative;
+}
+.price-content {
+    flex: 1;
+    padding-top: 0.213333rem;
+    padding-left: 0.186667rem;
+}
+.total-price {
+    font-size: 0.533333rem;
+    color: #fff;
+}
+.other-price {
+    font-size: 0.32rem;
+    color: #999;
+    margin-top: 0.053333rem;
+}
+.dot-num{
+    position: absolute;
+    right: 0;
+    top: 0.053333rem;
+    background: #fb4e44;
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.32rem;
+    color: #fff;
+    border: 0.026667rem solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.submit-btn {
+    width: 2.933333rem;
+    height: 100%;
+    background: #ffd161;
+    color: #333;
+    font-size: 0.426667rem;
+    line-height: 1.333333rem;
+    text-align: center;
+}
+.choose-content {
+    background: #fff;
+}
+.content-top {
+    height: 0.933333rem;
+    background: #f4f4f4;
+    font-size: 0.293333rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.clear-cart {
+    margin-left: 0.266667rem;
+    margin-right: 0.133333rem;
+    position: relative;
+    font-size: 0.389333rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.clear-cart:after {
+    content: ' ';
+    width: 0.346667rem;
+    height: 0.346667rem;
+    display: block;
+    background: url(../img/clear.jpeg) no-repeat center/cover;
+    position: absolute;
+    top: 0.3rem;
+    left: -0.373333rem;
+}
+.selected-item {
+    position: relative;
+    display: flex;
+    background: #fff;
+    font-size: 0.533333rem;
+    height: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2.666667rem;
+}
+.selected-item .shopping-item-select {
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.22rem;
+}
+.selected-item:not(last-child) {
+    border-bottom: 1px solid #c3c3c3;
+}
+
+/*  */
+.mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .7);
+}
+.selected-shop-item {
+    max-height: 12.30rem;
+    overflow: auto;
+}

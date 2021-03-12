@@ -1,0 +1,95 @@
+.order-list {
+    padding-bottom: 1.333333rem;
+}
+.order-list .order-item {
+    border-top: 0.346667rem solid #efefef;
+}
+.order-item .order-info {
+    display: flex;
+    padding-bottom: 0.48rem;
+    border-bottom: 0.026667rem solid #e0e0e0;
+}
+.order-info .order-pic {
+    width: 1.066667rem;
+    height: 1.066667rem;
+    margin-top: 0.213333rem;
+    margin-left: 0.426667rem;
+    border-radius: 50%;
+}
+.order-info .order-detail-info-container {
+    flex: 1;
+    margin-left: 0.4rem;
+    font-size: 0.373333rem;
+}
+.order-info .order-seller-name-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.026667rem solid #e0e0e0;
+    height: 1.466667rem;
+    padding-top: 0.053333rem;
+}
+.order-seller-name-container .order-seller-name {
+    font-size: 0.426667rem;
+    width: 4.8rem;
+    height: 0.426667rem;
+    font-weight: 600;
+    position: relative;
+
+}
+.order-seller-name-container .order-arrow {
+    width: 0.213333rem;
+    height: 0.213333rem;
+    border: 1px solid #999;
+    border-width: 1px 1px 0 0;
+    transform: rotate(45deg);
+    -webkit-transform: 45deg;
+
+}
+.order-seller-name-container .order-status {
+    font-size: 0.373333rem;
+    margin-left: 1.066667rem;
+    color: #999;
+}
+.order-detail-info .product-name {
+    font-size: 0.373333rem;
+    color: #666;
+    margin-top: 0.32rem;
+}
+.order-detail-info .product-count {
+    float: right;
+    margin-right: 0.4rem;
+
+}
+.product-item .p-total-count {
+    float: right;
+    margin-right: 0.4rem;
+    font-size: 0.32rem;
+}
+.product-item .total-price {
+    font-size: 0.373333rem;
+    color: #151515;
+    margin-left: 0.053333rem;
+    letter-spacing: 0.026667rem;
+}
+.order-item .evaluation {
+    padding-top: 0.266667rem;
+    padding-bottom: 0.266667rem;
+}
+.order-item .evaluation-btn {
+    float: right;
+    width: 2.666667rem;
+    height: 0.853333rem;
+    color: #b6450a;
+    background: #ffd161;
+    font-size: 0.373333rem;
+    line-height: 0.853333rem;
+    text-align: center;
+    margin-right: 0.4rem;
+}
+.order-list .loading {
+    padding-bottom: 0.266667rem;
+    padding-top: 0.266667rem;
+    font-size: 0.566667rem;
+    text-align: center;
+    color: rgb(161, 158, 158);
+}

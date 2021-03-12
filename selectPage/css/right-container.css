@@ -1,0 +1,88 @@
+.right-container {
+    flex: 1;
+    height: 100%;
+    margin-left: 0.266667rem;
+    overflow: auto;
+}
+.right-shopping {
+    font-size: 0.426667rem;
+    padding-bottom: 1.4rem;
+}
+.right-title {
+    font-size: 0.346667rem;
+    color: #333;
+    margin-top: 0.266667rem;
+    padding-left: 0.106667rem;
+    border-left: 0.053333rem solid #ffd161;
+}
+.shopping-item {
+    display: flex;
+    padding-top: 0.666667rem;
+    padding-bottom: 0.666667rem;
+    border-bottom: 0.026667rem solid #f0f0f0;
+    position: relative;
+}
+.shopping-item-pic {
+    width: 1.653333rem;
+    height: 1.653333rem;
+    margin-right: 0.266667rem;
+}
+.shopping-item-info {
+    flex: 1;
+}
+.shopping-item-title {
+    font-size: 0.426667rem;
+    color: #2f2f2f;
+}
+.shopping-item-zan,
+.shopping-item-desc {
+    color: #a9a9a9;
+    font-size: 0.32rem;
+    margin-top: 0.16rem;
+    line-height: 0.373333rem;
+    padding-right: 0.106667rem;
+}
+.shopping-item-desc {
+    line-height: 0.453333rem;
+}
+.shopping-item-price {
+    margin-top: 0.266667rem;
+    color: #fe4d3d;
+    font-size: 0.48rem;
+}
+.shopping-item-price-unit {
+    color: #a9a9a9;
+    font-size: 0.32rem;
+}
+.shopping-item-select {
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.56rem;
+    display: flex;
+}
+.shopping-item-minus {
+    width: 0.666667rem;
+    height: 0.666667rem;
+    background: url(../img/minus.png) no-repeat center/cover;
+}
+.shopping-item-count {
+    font-size: 0.4rem;
+    color: #2f2f2f;
+    width: 0.666667rem;
+    height: 0.666667rem;
+    line-height: 0.666667rem;
+    margin-left: 0.053333rem;
+    margin-right: 0.053333rem;
+    text-align: center;
+}
+.shopping-item-plus {
+    width: 0.666667rem;
+    height: 0.666667rem;
+    background: url(../img/plus.png) no-repeat center/cover;
+}
+.bottomLine {
+    width: 100%; 
+    height: 0.82rem; 
+    text-align: center; 
+    line-height: 0.82rem;
+}

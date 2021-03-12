@@ -1,0 +1,66 @@
+html,
+body{
+    background: #eee;
+}
+.my-list-container .my-list-item {
+    border-bottom: 0.266667rem solid #eee;
+    background: #fff;
+}
+.my-list-item li {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 0.373333rem;
+    position: relative;
+    padding-left: 0.693333rem;
+    margin-left: 0.4rem;
+}
+.my-list-item li:first-child {
+    border-bottom: 0.026667rem solid #e4e4e4;
+}
+.my-list-item li:before {
+    content: ' ';
+    display: block;
+    width: 0.426667rem;
+    height: 0.426667rem;
+    position: absolute;
+    top: 0.373333rem;
+    left: 1px;
+}
+.my-list-item li:after {
+    content: '>';
+    display: block;
+    width: 0.426667rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-family: simsun;
+    position: absolute;
+    top: 0;
+    right: 0.16rem;
+    color: #aaa;
+}
+.my-list-item .address:before {
+    background: url(../img/address.png) no-repeat center/cover;
+}
+.my-list-item .money:before {
+    background: url(../img/money.png) no-repeat center/cover;
+}
+.my-list-item .email:before {
+    background: url(../img/email.png) no-repeat center/cover;
+}
+.my-list-item .question:before {
+    background: url(../img/question.png) no-repeat center/cover;
+}
+.my-list-container .tel {
+    font-size: 0.4rem;
+    color: #ffb000;
+    text-align: center;
+    height: 1.226667rem;
+    line-height: 1.226667rem;
+    background: #fff;
+}
+.my-list-container .time {
+    font-size: 0.373333rem;
+    text-align: center;
+    margin-top: 0.346667rem;
+    color: #999;
+}

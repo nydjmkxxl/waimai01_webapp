@@ -1,0 +1,20 @@
+.header {
+    position: relative;
+}
+.header .header-img {
+    width: 100%;
+    height: 4.746667rem;
+    vertical-align: top;
+
+}
+.header .skip {
+    display: block;
+    position: relative;
+}
+.go {
+    position: absolute;
+    top: 0.266667rem;
+    right: 0.266667rem;
+    font-size: 0.496667rem;
+    color: #000;
+}

@@ -1,0 +1,17 @@
+.star-score .star {
+    width: 0.266667rem;
+    height: 0.266667rem;
+    float: left;
+}
+.star-score .fullstar {
+    background: url(../img/fullstar.png) no-repeat center/cover;
+
+}
+.star-score .halfstar {
+    background: url(../img/halfstar.png) no-repeat center/cover;
+
+}
+.star-score .zerostar {
+    background: url(../img/gray-star.png) no-repeat center/cover;
+
+}

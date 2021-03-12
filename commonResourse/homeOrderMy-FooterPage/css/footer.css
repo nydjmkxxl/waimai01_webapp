@@ -1,0 +1,42 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.333333rem;
+    display: flex;
+    border-top: 0.026667rem solid #b6b6b6;
+    background: rgba(246, 246, 246, .95); 
+}
+.footer .btn-item {
+    display: flex;
+    flex: 1;
+    font-size: 0.293333rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
+.footer .btn-icon {
+    margin-bottom: 0.106667rem;
+    width: 0.666667rem;
+    height: 0.666667rem;
+
+}
+.footer .home.btn-item .btn-icon {
+    background: url(../img/homeIcon.png) no-repeat center/cover;
+}
+.footer .order.btn-item .btn-icon {
+    background: url(../img/orderIcon.png) no-repeat center/cover;
+}
+.footer .my.btn-item .btn-icon {
+    background: url(../img/myIcon.png) no-repeat center/cover;
+}
+.footer .home.btn-item.active .btn-icon{
+    background: url(../img/homeIconActive.png) no-repeat center/cover;
+}
+.footer .order.btn-item.active .btn-icon{
+    background: url(../img/orderIconActive.png) no-repeat center/cover;
+}
+.footer .my.btn-item.active .btn-icon{
+    background: url(../img/myIconActive.png) no-repeat center/cover;
+}

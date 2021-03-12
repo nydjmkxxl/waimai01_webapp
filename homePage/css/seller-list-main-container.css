@@ -1,0 +1,102 @@
+.seller-list {
+    overflow: hidden;
+    padding-bottom: 1.333333rem;
+}
+.seller-list .seller-list-title-container {
+    text-align: center;
+    font-size: 0.426667rem;
+    margin-top: 0.373333rem;
+    margin-bottom: 0.133333rem;
+}
+.seller-list-title-container .seller-list-line {
+    display: inline-block;
+    border-bottom: 0.026667rem solid #949494;
+    height: 0.026667rem;
+    width: 0.8rem;
+    margin-left: 0.106667rem;
+    margin-right: 0.106667rem;
+    margin-bottom: 0.106667rem;
+}
+.seller-list .loading {
+    padding-bottom: 0.266667rem;
+    padding-top: 0.266667rem;
+    font-size: 0.566667rem;
+    text-align: center;
+    color: rgb(161, 158, 158);
+}
+.seller-list .seller-item-container {
+    display: flex;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-left: 0.266667rem;
+    margin-right: 0.266667rem;
+    color: #656565;
+    position: relative;
+}
+.seller-item-container .seller-item-pic {
+    width: 2.293333rem;
+    height: 1.733333rem;
+    border: 0.026667rem solid #e4e4e4;
+}
+.seller-item-container .seller-item-allInfo {
+    flex: 1;
+    margin-left: 0.186667rem;
+    overflow: hidden;
+}
+.seller-item-container .seller-item-brand {
+    position: absolute;
+    left: 0.026667rem;
+    top: 0.426667rem;
+    font-size: 0.32rem;
+    padding: 0.053333rem;
+    color: #fff;
+}
+.seller-item-container .seller-item-brand-pin  {
+    background: #ffa627;
+}
+.seller-item-container .seller-item-brand-xin {
+    background: #21c56c;
+}
+.seller-item-allInfo .seller-item-title {
+    margin-top: 0.08rem;
+    font-size: 0.426667rem;
+    font-weight: 500;
+    color: #333;
+}
+.seller-item-allInfo .seller-item-disc-container {
+    margin-top: 0.346667rem;
+    font-size: 0.32rem;
+}
+.seller-item-disc-container .seller-item-score {
+    float: left;
+}
+.seller-item-disc-container .seller-item-monthSeller {
+    float: left;
+    margin-left: 0.133333rem;
+    
+}
+.seller-item-disc-container .seller-item-time,
+.seller-item-disc-container .seller-item-distance  {
+    float: right;
+}
+.seller-item-price-container .seller-item-price {
+    margin-top: 0.266667rem;
+    font-size: 0.32rem;
+    height: 0.64rem;
+}
+.seller-item-allInfo .seller-item-activeInfo {
+    color: #898989;
+    margin-top: 0.186667rem;
+    font-size: 0.32rem;
+    display: flex;
+}
+.seller-item-activeInfo .activeInfo-icon {
+    width: 0.373333rem;
+    height: 0.373333rem;
+    }
+.seller-item-activeInfo .activeInfo-text {
+    width: 6.133333rem;
+    height: 0.373333rem;
+    margin-left: 0.08rem;
+    margin-top: 0.026667rem;
+}

@@ -1,0 +1,22 @@
+.category {
+    padding-bottom: 0.026667rem;
+    /* display: flex; */  /* 方式一 */
+    /* flex-wrap: wrap; */  /* 方式一 */
+}
+.category .category-item {
+    width: 25%;   /* 方式一 */   /* 方式二 */
+    float: left;   /* 方式二 */
+    padding-top: 0.373333rem;
+    font-size: 0.346667rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category .item-pic {
+    width: 1.253333rem;
+    /* height: 1.253333rem; */
+    /* width: 50%; */
+}
+.category .item-text {
+    margin-top: 0.373333rem;
+}

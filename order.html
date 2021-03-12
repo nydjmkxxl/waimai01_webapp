@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html zh="CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>订单页</title>
+    <script type="text/javascript">
+        (function () {
+            
+            var docEl = document.documentElement;
+
+            function setRemUnit() {
+                // 获取 rem 单位值
+                var rem = docEl.clientWidth / 10;
+
+                docEl.style.fontSize = rem + 'px';
+            }
+            setRemUnit();
+
+            window.addEventListener('resize', setRemUnit);
+
+            window.addEventListener('pageshow', function (e) {
+                if(e.persisted) setRemUnit();
+            });
+
+        })()
+    </script>
+    <link rel="stylesheet" type="text/css" href="commonResourse/worldCommonResourse/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="orderPage/css/header.css">
+    <link rel="stylesheet" type="text/css" href="orderPage/css/order-list-main-container.css">
+    <link rel="stylesheet" type="text/css" href="commonResourse/homeOrderMy-FooterPage/css/footer.css">
+   
+</head>
+<body>
+
+    <!-- header -->
+    <div class="header">订单</div>
+
+    <!-- order-list -->
+    <div class="order-list"> 
+        <div class="order-wrap"> 
+            <!-- js生成 --> 
+        </div>
+        <div class="loading">加载中</div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <!-- js生成 --> 
+    </div>
+    
+    <!-- script -->
+    <script src="commonResourse/worldCommonResourse/js/zepto.js"></script>
+    <script src="orderPage/js/order-list-main-container.js"></script>
+    <script src="commonResourse/homeOrderMy-FooterPage/js/footer.js"></script>
+</body>
+</html>
